@@ -26,5 +26,11 @@ namespace Gallery1.Controllers
 
             return View();
         }
+        public ActionResult Models()
+        {
+            ViewBag.Message = "Completed 3D Models";
+
+            return View();
+        }
     }
 }
