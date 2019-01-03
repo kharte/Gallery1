@@ -32,5 +32,11 @@ namespace Gallery1.Controllers
 
             return View();
         }
+        public ActionResult Renders()
+        {
+            ViewBag.Message = "Material and Scene Renders";
+
+            return View();
+        }
     }
 }
